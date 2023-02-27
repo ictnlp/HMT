@@ -16,7 +16,7 @@ Our method is implemented based on the open-source toolkit [Fairseq](https://git
 
   ```bash
   git clone https://github.com/ictnlp/HMT.git
-  cd Wait-info
+  cd HMT
   pip install --editable ./
   ```
 
