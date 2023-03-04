@@ -317,9 +317,9 @@ class LabelSmoothedCrossEntropyCriterion(FairseqCriterion):
         logging_output = {
             "loss": loss.data,
             "nll_loss": nll_loss.data,
-            "dp_loss": dp_loss.data,
-            "ce_loss": ce_loss.data,
-            "la_loss": la_loss.data,
+            "hmm_loss": hmm_loss.data,
+            "state_loss": state_loss.data,
+            "latency_loss": latency_loss.data,
             "ntokens": sample["ntokens"],
             "nsentences": sample["target"].size(0),
             "sample_size": sample_size,
@@ -367,9 +367,9 @@ class LabelSmoothedCrossEntropyCriterion(FairseqCriterion):
         """Aggregate logging outputs from data parallel training."""
         loss_sum = sum(log.get("loss", 0) for log in logging_outputs)
         nll_loss_sum = sum(log.get("nll_loss", 0) for log in logging_outputs)
-        dp_loss_sum = sum(log.get("dp_loss", 0) for log in logging_outputs)
-        ce_loss_sum = sum(log.get("ce_loss", 0) for log in logging_outputs)
-        la_loss_sum = sum(log.get("la_loss", 0) for log in logging_outputs)
+        hmm_loss_sum = sum(log.get("hmm_loss", 0) for log in logging_outputs)
+        state_loss_sum = sum(log.get("state_loss", 0) for log in logging_outputs)
+        latency_loss_sum = sum(log.get("latency_loss", 0) for log in logging_outputs)
         ntokens = sum(log.get("ntokens", 0) for log in logging_outputs)
         sample_size = sum(log.get("sample_size", 0) for log in logging_outputs)
 
@@ -380,13 +380,13 @@ class LabelSmoothedCrossEntropyCriterion(FairseqCriterion):
             "nll_loss", nll_loss_sum / ntokens / math.log(2), ntokens, round=3
         )
         metrics.log_scalar(
-            "dp_loss", dp_loss_sum / sample_size / math.log(2), sample_size, round=3
+            "hmm_loss", hmm_loss_sum / sample_size / math.log(2), sample_size, round=3
         )
         metrics.log_scalar(
-            "ce_loss", ce_loss_sum / sample_size / math.log(2), sample_size, round=3
+            "state_loss", state_loss_sum / sample_size / math.log(2), sample_size, round=3
         )
         metrics.log_scalar(
-            "la_loss", la_loss_sum / sample_size / math.log(2), sample_size, round=3
+            "latency_loss", latency_loss_sum / sample_size / math.log(2), sample_size, round=3
         )
         metrics.log_derived(
             "ppl", lambda meters: utils.get_perplexity(meters["nll_loss"].avg)
