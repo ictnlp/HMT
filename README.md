@@ -29,13 +29,13 @@ Since the training time of HMT on WMT15 De-En is slightly longer, we provide the
 
 | L    | K    | Download Link                                                |
 | ---- | ---- | ------------------------------------------------------------ |
-| -1   | 4    | [[百度网盘 Baidu](https://pan.baidu.com/s/12kJATrGczEVO5Iy4m2m_iA?pwd=zsl1)] |
-| 2    | 4    | [[百度网盘 Baidu](https://pan.baidu.com/s/1GgwoxcwW4_q-c8gG7lkW5g?pwd=bdk6)] |
-| 3    | 6    | [[百度网盘 Baidu](https://pan.baidu.com/s/1nYxLOfclpQc3IAKz58z7Og?pwd=s1ni)] |
-| 5    | 6    | [[百度网盘 Baidu](https://pan.baidu.com/s/1lX6vFZHmH4N8e3u1r80cJQ?pwd=pdyk)] |
-| 7    | 6    | [[百度网盘 Baidu](https://pan.baidu.com/s/1L_1ztVDtWyvTTDYmvjjO8Q?pwd=1gue)] |
-| 9    | 8    | [[百度网盘 Baidu](https://pan.baidu.com/s/1jHatSwFdPPeaxjRHWZdgRw?pwd=trby)] |
-| 11   | 8    | [[百度网盘 Baidu](https://pan.baidu.com/s/1ptMUd3iuveTcYN6BuBd0tw?pwd=rw86)] |
+| -1   | 4    | [[百度网盘 Baidu Skydisk](https://pan.baidu.com/s/12kJATrGczEVO5Iy4m2m_iA?pwd=zsl1)] |
+| 2    | 4    | [[百度网盘 Baidu Skydisk](https://pan.baidu.com/s/1GgwoxcwW4_q-c8gG7lkW5g?pwd=bdk6)] |
+| 3    | 6    | [[百度网盘 Baidu Skydisk](https://pan.baidu.com/s/1nYxLOfclpQc3IAKz58z7Og?pwd=s1ni)] |
+| 5    | 6    | [[百度网盘 Baidu Skydisk](https://pan.baidu.com/s/1lX6vFZHmH4N8e3u1r80cJQ?pwd=pdyk)] |
+| 7    | 6    | [[百度网盘 Baidu Skydisk](https://pan.baidu.com/s/1L_1ztVDtWyvTTDYmvjjO8Q?pwd=1gue)] |
+| 9    | 8    | [[百度网盘 Baidu Skydisk](https://pan.baidu.com/s/1jHatSwFdPPeaxjRHWZdgRw?pwd=trby)] |
+| 11   | 8    | [[百度网盘 Baidu Skydisk](https://pan.baidu.com/s/1ptMUd3iuveTcYN6BuBd0tw?pwd=rw86)] |
 
 
 
