@@ -1,6 +1,8 @@
 # Hidden Markov Transformer for Simultaneous Machine Translation
 
-Source code for our ICLR 2023 spotlight paper "Hidden Markov Transformer for Simultaneous Machine Translation"
+> **[Shaolei Zhang](https://zhangshaolei1998.github.io/), Yang Feng**
+
+Source code for our ICLR 2023 spotlight paper "[Hidden Markov Transformer for Simultaneous Machine Translation](https://openreview.net/forum?id=9y0HFvaAYD6)"
 
 <img src="./hmt.png" alt="hmt" style="zoom: 100%;" />
 
@@ -22,6 +24,20 @@ Our method is implemented based on the open-source toolkit [Fairseq](https://git
 
 
 ## Quick Start
+
+Since the training time of HMT on WMT15 De-En is slightly longer, we provide the trained HMT model of WMT15 De-En for reproduction.
+
+| L    | K    | Download Link                                                |
+| ---- | ---- | ------------------------------------------------------------ |
+| -1   | 4    | [[百度网盘 Baidu](https://pan.baidu.com/s/12kJATrGczEVO5Iy4m2m_iA?pwd=zsl1)] |
+| 2    | 4    | [[百度网盘 Baidu](https://pan.baidu.com/s/1GgwoxcwW4_q-c8gG7lkW5g?pwd=bdk6)] |
+| 3    | 6    | [[百度网盘 Baidu](https://pan.baidu.com/s/1nYxLOfclpQc3IAKz58z7Og?pwd=s1ni)] |
+| 5    | 6    | [[百度网盘 Baidu](https://pan.baidu.com/s/1lX6vFZHmH4N8e3u1r80cJQ?pwd=pdyk)] |
+| 7    | 6    | [[百度网盘 Baidu](https://pan.baidu.com/s/1L_1ztVDtWyvTTDYmvjjO8Q?pwd=1gue)] |
+| 9    | 8    | [[百度网盘 Baidu](https://pan.baidu.com/s/1jHatSwFdPPeaxjRHWZdgRw?pwd=trby)] |
+| 11   | 8    | [[百度网盘 Baidu](https://pan.baidu.com/s/1ptMUd3iuveTcYN6BuBd0tw?pwd=rw86)] |
+
+
 
 ### Data Pre-processing
 
