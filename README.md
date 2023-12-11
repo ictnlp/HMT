@@ -25,7 +25,7 @@ Our method is implemented based on the open-source toolkit [Fairseq](https://git
 
 ## Quick Start
 
-Since the training time of HMT on WMT15 De-En is slightly longer, we provide the trained HMT model of WMT15 De-En for reproduction.
+Since the training time of HMT on WMT15 De-En is slightly longer, we provide the trained HMT model of WMT15 De-En for reproduction. The corresponding Fairseq binary data of WMT15 De-En can be download [here](https://pan.baidu.com/s/1Z8GcwKtlzybyHN2rMIqSlQ?pwd=pvut). You can go directly to the inference part to test HMT, with the provided checkpoints and binary data.
 
 | L    | K    | Download Link                                                |
 | ---- | ---- | ------------------------------------------------------------ |
